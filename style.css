@@ -14,8 +14,7 @@ body {
     justify-content: center;
 }
 
-#fries {
+#fries-wrapper {
     width: 200px;
     height: 200px;
-    background: red;
 }
