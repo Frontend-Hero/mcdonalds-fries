@@ -14,7 +14,70 @@ body {
     justify-content: center;
 }
 
-#fries-wrapper {
+.fries-wrapper {
+    position: relative;
     width: 200px;
     height: 200px;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
 }
+    .fries-wrapper img {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .fries-wrapper .m {
+        width: 20%;
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: 24%;
+    }
+
+    .fries-wrapper .box-back {
+        bottom: 54%;
+        width: 97%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .fries-wrapper .box-lines {
+        bottom: 54%;
+        width: 97%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .fries-wrapper .fry {
+        width: 12%;
+        bottom: 110%
+    }
+    .fries-wrapper .fry-2 {
+        bottom: 102%;
+        left: 12%;
+        transform: rotate(357deg);
+    }
+    .fries-wrapper .fry-3 {
+        bottom: 100%;
+        left: 23%;
+        transform: rotate(0deg);
+    }
+    .fries-wrapper .fry-4 {
+        bottom: 124%;
+        left: 34%;
+        transform: rotate(359deg);
+    }
+    .fries-wrapper .fry-5 {
+        bottom: 132%;
+        left: 47%;
+        transform: rotate(5deg);
+    }
+    .fries-wrapper .fry-6 {
+        bottom: 118%;
+        left: 60%;
+        transform: rotate(9deg);
+    }
+    .fries-wrapper .fry-7 {
+        bottom: 118%;
+        left: 60%;
+        transform: rotate(9deg);
+    }
