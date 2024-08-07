@@ -20,11 +20,12 @@ body {
     height: 200px;
     justify-content: center;
     align-items: center;
-    margin-top: 29%;
+    margin-top: 20%;
 }
     .fries-wrapper img {
         position: absolute;
         bottom: 0;
+        transition: all 0.5s ease;
     }
 
     .fries-wrapper .m {
@@ -47,9 +48,16 @@ body {
         left: 50%;
     }
 
+    .fries-wrapper .shadow {
+        bottom: -38%;
+        /* end state transform: scale(.60); */
+        transform: scale(.95);
+    }
+
     .fries-wrapper .fry {
         width: 12%;
-        bottom: 110%
+        bottom: 110%;
+        display: none;
     }
     .fries-wrapper .fry-2 {
         bottom: 102%;
@@ -90,4 +98,22 @@ body {
         bottom: 81%;
         left: 88%;
         transform: rotate(18deg);
+    }
+
+
+    /** 
+     * Initial values
+     */
+    .box {
+        transform: scale(1, 0.8);
+    }
+
+
+
+    /** 
+     * Box group
+     */
+    .fries-wrapper .group-box {
+        border: 2px solid blue;
+        margin-bottom: -80px;
     }
