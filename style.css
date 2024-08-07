@@ -95,6 +95,11 @@ body {
     img.shadow {
         /* end state transform: scale(.60); */
         transform: scale(.95);
+
+        animation-duration: 1.125s;
+        animation-name: shadow;
+        animation-iteration-count: infinite;
+        transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
     }
 
     /** 
@@ -116,11 +121,9 @@ body {
         left: 50%;
         bottom: 25%;
         transform: translateX(-50%);
-
         animation-duration: 1.125s;
         animation-name: boxM; 
         animation-iteration-count: infinite;
-        /* animation-timing-function: cubic-bezier(0.68, 0.27, 3.9);  */
         transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
     }
 
@@ -226,17 +229,17 @@ body {
 
     @keyframes shadow {
         0% {
-            transform: scale(1, 0.8) translateX(-50%) translateY(0%);
+            transform: scale(.95);
         }
         30% {
-           transform: scale(1, 1) translateX(-50%) translateY(-210%);
+           transform: scale(.6);
         }
         45% {
-           transform: scale(1, 1) translateX(-50%) translateY(-210%);
+           transform: scale(.6);
         }
         100%
         {
-           transform: scale(1, 0.8) translateX(-50%) translateY(0%);
+           transform: scale(.95);
         }
     }
 
