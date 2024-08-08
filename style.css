@@ -22,6 +22,9 @@ body {
     align-items: center;
     border: 1px solid red;
 }
+    /**
+     * All image assets  
+     */
     img.feh-asset {
         position: absolute;
         bottom: 0;
